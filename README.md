@@ -5,3 +5,12 @@
 - 武英殿十三經注疏 春秋左傳正義 - https://ctext.org/library.pl?if=gb&res=77718
 - 欽定四庫全書 左傳紀事本末 - https://ctext.org/library.pl?if=gb&res=5742
 - 仿宋相台五經 春秋經傳集解 - https://ctext.org/library.pl?if=gb&res=77830
+
+## Engineering Notes
+
+### Tagging
+
+```
+cd utils
+rm -rf ../raw/generated && python create_tags.py
+```
